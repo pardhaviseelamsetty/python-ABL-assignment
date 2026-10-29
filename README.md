@@ -2,6 +2,7 @@
 1to10 tasks 
  Problem Statement
 Shortlist applicants using marks, attendance, family income, ranking score, and a fixed quota.
+
 2. Pseudocode
 INPUT quota and applicants
 FOR each applicant: check marks >= 60, attendance >= 75, income <= 250000
@@ -40,10 +41,10 @@ F-->G
 G--Yes-->C
 G--No-->H[Sort by score and apply quota]
 H-->I[/Display report/]
-I-->J([End])
-```
+I-->J([End])```
 
 6. Input
 Quota; applicant name, marks, attendance, annual income, ranking score.
-7. Output
+
+8. Output
 Selected applicants, eligible applicants outside quota, and rejected applicants with reasons
